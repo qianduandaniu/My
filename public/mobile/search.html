@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>搜索中心</title>
+    <link rel="stylesheet" href="./asset/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./asset/mui/css/mui.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header>
+        <h2>
+            搜索中心
+            <a class="lt_header_rt mui-pull-left" href="javascript:history.back()">
+                <span class="mui-icon mui-icon-back "></span>
+            </a>
+        </h2>
+    </header>
+
+
+    <div class="lt_view">
+        <!-- 搜索框 -->
+        <form class="mui-clearfix">
+            <input type="text" placeholder="搜索你喜欢的商品" class="lt_text">
+            <button type="button" class="lt_button">搜索</button>
+        </form>
+
+        <!-- 搜索历史 -->
+        <div class="lt_title mui-clearfix">
+            <span>搜索历史</span>
+            <span class="mui-icon mui-icon-trash  lt_empty">清空记录</span>
+        </div>
+
+        <!-- 历史搜索提示框 -->
+        <div class="lt_input mui-clearfix">
+            <!-- <div class="lt_container mui-clearfix">
+                <span>123</span>
+                <span class="item_close mui-icon mui-icon-closeempty"></span>
+            </div> -->
+
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class=" mui-clearfix">
+        <a href="javascript:;" class="active">
+            <span class="mui-icon mui-icon-home"></span>
+            <p class="active">首页</p>
+        </a>
+        <a href="javascript:;">
+            <span class="mui-icon mui-icon-bars"></span>
+            <p>分类</p>
+        </a>
+        <a href="javascript:;">
+            <span class="fa fa-shopping-cart"></span>
+            <p>购物车</p>
+        </a>
+        <a href="javascript:;">
+            <span class="mui-icon mui-icon-contact"></span>
+            <p>会员中心</p>
+        </a>
+    </footer>
+</body>
+<script src="./asset/mui/js/mui.js"></script>
+<script src="./asset/zepto/zepto.min.js"></script>
+<script src="./js/search.js"></script>
+
+
+</html>

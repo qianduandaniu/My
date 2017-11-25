@@ -1,0 +1,66 @@
+.lt_view {
+  background-color: #fff;
+}
+/* 搜索框 */
+form {
+  width: 100%;
+  height: 40px;
+  padding: 15px 10px;
+}
+form .lt_text {
+  float: left;
+  width: 80%;
+  border: 1px solid #205665;
+  border-radius: 0;
+  border-right: none;
+  border-radius: 5px;
+  overflow: hidden;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+form .lt_button {
+  float: right;
+  width: 20%;
+  border: 1px solid #205665;
+  height: 40px;
+  border-left: none;
+  background-color: #205665   ;
+  border-radius: 5px;
+  overflow: hidden;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #fff;
+  margin-bottom: 0px;
+}
+/* 搜索历史 */
+.lt_title span {
+  display: block;
+  float: left;
+  font-size: 14px;
+  padding: 0 10px;
+  line-height: 0;
+  color: #888;
+}
+.lt_title span:nth-child(2) {
+  float: right;
+}
+/* 历史搜索提示框 */
+.lt_input {
+  width: 100%;
+  height: 40px;
+  padding: 12px;
+}
+.lt_input .lt_container {
+  height: 40px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+.lt_input .lt_container span {
+  float: right;
+}
+.lt_input .lt_container span:nth-of-type(1) {
+  float: left;
+}
+/*# sourceMappingURL=search.css.map */
